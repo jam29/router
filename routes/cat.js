@@ -9,6 +9,9 @@ const router = express.Router()
 // router.use(timeLog)
 //-----------
 
+
+
+
 // define the home page route
 router.get('/', (req, res) => {
   res.render('dogshomp', { txt: 'page des cleps'})
