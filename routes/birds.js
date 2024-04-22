@@ -6,6 +6,8 @@ const router = express.Router()
 
 //middleware that is specific to this router
 const timeLog = (req, res, next) => {
+
+  console.log("debug")
   console.log('oiseau chargé à : ', (new Date()).toLocaleDateString("fr-FR"))
   next()
 }
