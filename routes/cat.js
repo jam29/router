@@ -9,7 +9,9 @@ const router = express.Router()
 // router.use(timeLog)
 //-----------
 
-
+router.get('/toto',(req, res, next) => {
+    res.render('toto')
+})
 
 
 // define the home page route
