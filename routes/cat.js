@@ -7,7 +7,7 @@ const router = express.Router()
 //   next()
 // }
 // router.use(timeLog)
-//------
+//-----------
 
 // define the home page route
 router.get('/', (req, res) => {
